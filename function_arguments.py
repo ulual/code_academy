@@ -3,4 +3,4 @@ def print_animals(animal1, animal2, *args, animal4, **kwargs):
   print(args)
   print(animal4)
   print(kwargs)
-print_animals('Snake', 'Fish', 'Guinea Pig', 'Owl', animal4='Cat', animal5='Dog, Pigeon')
+print_animals('Snake', 'Fish', 'Guinea Pig', 'Owl', animal4='Cat', animal5='Dog, Pigeons')
