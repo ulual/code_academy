@@ -1,0 +1,7 @@
+This file will detail information on how to interpret the instructions into writing the code.
+
+** To interpret a sentence into code.
+# First we’ll need to calculate these costs using a function that you’re going to write called calculate_shipping_cost().
+def calculate_shipping_cost():
+# Give calculate_shipping_cost three parameters: from_coords, to_coords, and shipping_type.
+def calculate_shipping_cost(from_coords, to_coords, shipping_type):
