@@ -9,4 +9,3 @@ def enclosing_function():
   print(var)
 
 enclosing_function()
-print(var)
