@@ -1,4 +1,6 @@
 print(globals())
+# globals output
+# None}
 
 def simple_math_func():
   x = 10
@@ -7,3 +9,5 @@ def simple_math_func():
   add = x + y
 
 print(locals())
+# locals output
+# None, 'simple_math_func': <function simple_math_func at 0x103cc85e0>}
