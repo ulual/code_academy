@@ -26,11 +26,10 @@ def print_of_my_dogs_name(dog_name):
   print('My dog age is ' + str(name_of_my_dog[dog_name]) + ' and the name is ' + dog_name + '.')
 #function 2
 def print_all_dog_name():
-  for dog_name in name_of_my_dog:
-    print(dog_name)
+  for name in name_of_my_dog:
+    print(name)
 
 #function 1
 print_of_my_dogs_name('Kolohe')
 #function 2
 print_all_dog_name()
-
