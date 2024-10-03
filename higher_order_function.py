@@ -1,11 +1,13 @@
 def total_bill(func, value):
     total = func(value)
-    return total
+    #return total
+    return ("The total amount owed is $" + "{:.2f}".format(total) + ". Thank you! :)")
 
 def add_tax(total):
   tax = total * 0.06
   new_total = total + tax
   return new_total
+  
 
 def add_tip(total):
   tip = total * .2
