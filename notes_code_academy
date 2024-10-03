@@ -5,3 +5,6 @@ This file will detail information on how to interpret the instructions into writ
 def calculate_shipping_cost():
 # Give calculate_shipping_cost three parameters: from_coords, to_coords, and shipping_type.
 def calculate_shipping_cost(from_coords, to_coords, shipping_type):
+
+** To explain more about namespace and scope.
+#
