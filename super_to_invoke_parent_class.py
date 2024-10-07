@@ -11,10 +11,15 @@ class Admin(Employee):
   def say_id(self):
     super().say_id()
     print("I am an admin.")
-    
+
+# Write your code below
+class Manager(Admin):
+  def say_id(self):
+    print("I am in charge!")
+    super().say_id()
 
 e1 = Employee()
 e2 = Employee()
 e3 = Admin()
-e3.say_id()
-
+e4 = Manager()
+e4.say_id()
