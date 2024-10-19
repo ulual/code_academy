@@ -34,3 +34,5 @@ del box.weight #this calls .delWeight()
 box.weight = 15 #box.__weight is unchanged
 
 print(box.weight) #this calls .getWeight()
+
+#Test
