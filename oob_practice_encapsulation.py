@@ -13,5 +13,3 @@ parakeet.is_hungry = True
 parrot.is_hungry = True
 
 print("Birds fed!")
-
-#This script was rename oob_practice_encapsulation.py
