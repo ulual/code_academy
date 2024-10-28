@@ -15,7 +15,7 @@ class Box:
   weight = property(getWeight, setWeight, delWeight, "Docstring for the 'weight' property")
 
 
-box = Box(45)
+box = Box(35)
 
 box.setWeight(-5) 
 print(box.getWeight())
