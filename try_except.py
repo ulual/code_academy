@@ -1,15 +1,15 @@
 # Checkpoint 1
 staff = {
   'Austin': {
-      'floor managers': 1,
+      'floor managers': 0,
       'sales associates': 5
   },
   'Melbourne': {
-      'floor managers': 0,
+      'floor managers': 1,
       'sales associates': 8
   },
   'Beijing': {
-      'floor managers': 2,
+      'floor managers': 0,
       'sales associates': 5
   },
 }
@@ -31,3 +31,10 @@ for location, staff in staff.items():
   # Checkpoint 3
   except:
     print('Could not print sales report for ' + location)
+
+#The code provided is designed to print a report of staff at different locations. Here's a breakdown of the key concepts:
+#1. **Nested Dictionaries**: The `staff` dictionary contains other dictionaries for each location. Each inner dictionary holds the number of 'floor managers' and 'sales associates'.
+#2. **Function Definition**: The `print_staff_report` function takes a location and a dictionary of staff numbers. It calculates the ratio of sales associates to floor managers and prints a report.
+#3. **Error Handling with `try` and `except`**: The `try` block attempts to call `print_staff_report`. If an error occurs (like division by zero when there are no managers), the `except` block catches it and prints an error message.
+#4. **Looping through a Dictionary**: The `for` loop iterates over each location and its corresponding staff dictionary in `staff.items()`.
+#In this code, if a location has zero floor managers, a division by zero error will occur, and the `except` block will handle it by printing an error message.
